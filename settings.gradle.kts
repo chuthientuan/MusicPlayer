@@ -16,8 +16,13 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven(url = "https://jitpack.io")
     }
 }
 
 rootProject.name = "MusicPlayer"
 include(":app")
+include(":lib:extensions")
+include(":lib:icons_pack")
+include(":lib:mediaplayer")
+include(":lib:utils")
